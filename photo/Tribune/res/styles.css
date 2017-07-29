@@ -1,0 +1,110 @@
+/*
+ * Combined style sheet for the index pages and the slide pages.
+ */
+
+/* Style for all bodies. */
+body {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: Black;
+	margin: 10;
+	font : bold;
+	background : White url(bg.gif) repeat;}
+
+/* Style for all table cells. */
+td {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font : bold;
+}
+
+/* Put a border on all generated images */
+.image {
+	border-width: 1;
+	border-color: #000000;
+	margin: 5;
+}
+
+/* Align the content of the cells on the index pages to the center and bottom. */
+#index td {
+	text-align: center;
+}
+
+/* Remove the margin under the images on the index pages. */
+#index .image {
+	margin-left: 2;
+	margin-right: 2;
+	margin-bottom: 0;
+}
+
+/* Don't have margins on the slide pages. */
+body#slide {
+	margin: 0;
+}
+
+/* Highlight the image name on the slide pages. */
+#slide .name {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+/* Header */
+h1 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+small
+{
+	font-size: 8pt;
+}
+
+.number,.date {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 18px;
+	font-weight : bold;
+}
+
+.pagenumber {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 36px;
+	font-weight : bold;
+	color: #303030
+
+}
+
+.filename {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 18px;
+	font-weight : bold;
+}
+
+/* Custom link styles */
+a:active {
+	text-decoration: none;
+	color: #FF8080;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #606060;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #FF0000
+}
+
+a:link {
+	text-decoration: none;
+	color: #000070
+}
+
+#imageinfo {
+	visibility: hidden;
+
+}
+
+.imageinfo {
+	font-size: small;
+}
+
